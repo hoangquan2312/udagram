@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-        - image: hoangquan2312/udagram-reverseproxy:latest
+        - image: hoangquan2312/udagram-reverseproxy:v1
           name: reverseproxy
           imagePullPolicy: Always
           ports:
